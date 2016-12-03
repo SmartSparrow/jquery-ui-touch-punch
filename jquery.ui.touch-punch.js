@@ -12,7 +12,7 @@
     if(typeof define === "function" && define.amd){
 
         // AMD. Register as an anonymous module.
-        define(["jquery", "jquery-ui/mouse"], factory);
+        define(["jquery", "jquery-ui/widgets/mouse"], factory);
     }
     else{
 
